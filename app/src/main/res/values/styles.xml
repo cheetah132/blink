@@ -1,0 +1,17 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#FF8A65</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="ChatListToolBar" parent="Base.Widget.AppCompat.Toolbar">
+        <item name="android:textColorPrimary">@android:color/darker_gray</item>
+        <item name="android:textColorSecondary">@android:color/darker_gray</item>
+        <item name="actionMenuTextColor">@android:color/white</item>
+        <item name="android:layout_marginBottom">0.5dp</item>
+    </style>
+</resources>

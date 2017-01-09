@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/chatListToolBar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="40dp"
+            android:theme="@style/ChatListToolBar"
+            app:contentInsetStart="0dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:background="#FFAB91"
+                >
+                <ImageView
+                    android:id="@+id/petView"
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:src="@mipmap/ic_pets_white_24dp"
+                    />
+            </LinearLayout>
+
+        </android.support.v7.widget.Toolbar>
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/chatListRecyclerView"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="vertical"
+                    android:background="#ECEFF1"
+                    android:paddingTop="8dp"
+                    android:layout_alignParentTop="true"
+                    />
+        </FrameLayout>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"></FrameLayout>
+</android.support.v4.widget.DrawerLayout>

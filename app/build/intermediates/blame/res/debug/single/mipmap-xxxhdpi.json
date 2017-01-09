@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Users/Beomseok/Desktop/Blink_android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_send_white_24dp.png",
+        "source": "/Users/Beomseok/Desktop/Blink_android/app/src/main/res/mipmap-xxxhdpi/ic_send_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Beomseok/Desktop/Blink_android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_pets_white_24dp.png",
+        "source": "/Users/Beomseok/Desktop/Blink_android/app/src/main/res/mipmap-xxxhdpi/ic_pets_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Beomseok/Desktop/Blink_android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_delete_forever_white_24dp.png",
+        "source": "/Users/Beomseok/Desktop/Blink_android/app/src/main/res/mipmap-xxxhdpi/ic_delete_forever_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Beomseok/Desktop/Blink_android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_keyboard_arrow_left_white_24dp.png",
+        "source": "/Users/Beomseok/Desktop/Blink_android/app/src/main/res/mipmap-xxxhdpi/ic_keyboard_arrow_left_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Beomseok/Desktop/Blink_android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_dehaze_white_24dp.png",
+        "source": "/Users/Beomseok/Desktop/Blink_android/app/src/main/res/mipmap-xxxhdpi/ic_dehaze_white_24dp.png"
+    },
+    {
+        "merged": "/Users/Beomseok/Desktop/Blink_android/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/Users/Beomseok/Desktop/Blink_android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    }
+]
